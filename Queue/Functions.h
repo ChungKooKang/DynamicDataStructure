@@ -13,3 +13,4 @@ struct QueueList
 };
 
 void CreateQueue(QueueList& list);
+void PrintQeueue(QueueList& list);

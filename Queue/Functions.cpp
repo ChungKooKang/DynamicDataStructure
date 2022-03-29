@@ -3,13 +3,13 @@
 void CreateQueue(QueueList& list)
 {
 	Queue* p = new Queue;
-	if (list->head == list->tail)
+	if (list.head == list.tail)
 	{
-		list->tail = p;
+		list.tail = p;
 	}
 	else
 	{
-		list->tail->pNext = p;
-		list->tail = p;
+		list.tail->pNext = p;
+		list.tail = p;
 	}
 }
