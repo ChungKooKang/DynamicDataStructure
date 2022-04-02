@@ -8,8 +8,8 @@ struct Queue
 
 struct QueueList
 {
-	Queue* head;
-	Queue* tail;
+	Queue* head = nullptr;
+	Queue* tail = nullptr;
 };
 
 void CreateQueue(QueueList& list);

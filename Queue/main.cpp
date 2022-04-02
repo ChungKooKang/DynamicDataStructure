@@ -7,5 +7,6 @@ int main()
 
 	QueueList myList;
 	CreateQueue(myList);
+	PrintQeueue(myList);
 
 }
